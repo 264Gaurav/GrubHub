@@ -42,7 +42,7 @@ const Register = () => {
       
       e.preventDefault();
       const { name, email, phone, password } = values;
-      const res = await fetch("http://localhost:4000/register", {
+      const res = await fetch("https://grubhub-server.onrender.com/register", {
         method: "POST",
         headers: {
           Accept: "application/json",
