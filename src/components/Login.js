@@ -36,7 +36,7 @@ const Login = () => {
     if(handleValidation()){
     e.preventDefault();
     const { email, password } = values;
-    const res = await fetch("http://localhost:4000/login", {
+    const res = await fetch("https://grubhub-server.onrender.com/login", {
       method: "POST",
       headers: {
         Accept: "application/json",
