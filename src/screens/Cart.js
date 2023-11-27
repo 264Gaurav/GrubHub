@@ -6,7 +6,7 @@ export default function Cart() {
   let dispatch = useDispatchCart();
   if (data.length === 0) {
     return (
-      <div>
+      <div className='bg-white'>
         <div className='m-5 w-100 text-center fs-3'>The Cart is Empty!</div>
       </div>
     )
